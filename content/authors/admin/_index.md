@@ -1,84 +1,55 @@
 ---
-# Display name
-title: Alice Wu 吳恩達
-
-# Full name (for SEO)
-first_name: Alice
-last_name: Wu
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position/tagline
-role: Professor of Artificial Intelligence
-
-# Organizations/Affiliations to show in About widget
-organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-# Interests to show in About widget
+title: Kan Zhu 朱侃
+role: Undergraduate (Computer Engineering)
+avatar_filename: avatar.jpg
+bio: I am applying for Fall 2023 PhD programs. My research interests are data
+  center application optimizations, micro-architectural optimizations
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
-
-# Education to show in About widget
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+  - Computer Architecture
+  - Data Center Optimization
+  - Hardware Security
+  - Operating Systems
+  - Compilers
 social:
+  - icon: cv
+    icon_pack: ai
+    link: uploads/KanZhuResumev2.docx
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: mailto:kanzhu@umich.edu
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/serendipity-zk
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Highlight the author in author lists? (true/false)
+organizations:
+  - name: University of Michigan
+    url: https://www.umich.edu/
+education:
+  courses:
+    - course: B.S. Computer Engineering
+      institution: University of Michigan
+      year: 2021-2023
+    - course: B.S. Electrical and Computer Engineering
+      institution: Shanghai Jiao Tong University
+      year: 2019-2021 (transfer to UM)
+superuser: true
+last_name: Zhu
 highlight_name: true
+first_name: Kan
+email: kanzhu@umich.edu
 ---
+**I am applying for Fall 2023 Ph.D. programs. If you are hiring, please reach out to me at kanzhu@umich.edu**.
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+I am a senior undergraduate student majoring in Computer Engineering at the University of Michigan. 
+<!-- My research interests are data center application optimizations and microarchitecture optimizations. I am also interested in Accelerators, Compliers and Operating Systems. -->
+
+My research enables architectural simulations, characterizations, and optimizations of production web services. In particular, I propose a novel infrastructure to investigate and optimize production web services' micro-architectural behaviors using recently-released Google traces. I have also worked on optimizing the performance of uop cache for data center applications.
+
+Recently, I presented my research to ACM student research competition at MICRO'2022 where I won [first place](https://twitter.com/takhandipu/status/1577813886312620032).
+
+I am advised by [Tanvir Ahmed Khan](https://web.eecs.umich.edu/~takh/) and [Baris Kasikci](https://web.eecs.umich.edu/~barisk/). I also collaborate with [Shuwen Deng](https://caslab.csl.yale.edu/~shuwen/), [Heiner Litz](https://people.ucsc.edu/~hlitz/), and [Akshitha Sriraman](https://akshithasriraman.eecs.umich.edu/). I have also closely worked with Google engineers, [Derek Bruening](https://research.google/people/author58045/) and [Victor Lee](https://www.linkedin.com/in/victor-lee-b980781/).
+
+
+{{% staticref "uploads/KanZhuResumev2.docx" "newtab" %}}Download my CV{{% /staticref %}}
